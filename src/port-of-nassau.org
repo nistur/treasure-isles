@@ -1,0 +1,118 @@
+#+TITLE: Treasure Isles - Port of Nassau v0.1
+#+OPTIONS: toc:nil H:10 tex:t date:nil author:nil title:nil
+#+LaTeX_HEADER: \usepackage{treasure}
+#+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-gray}}
+#+LaTeX_HEADER: \pagestyle{empty}
+#+LaTeX_CLASS: leaflet
+#+LaTeX_CLASS_OPTIONS: [a4paper,10pt,notumble]
+
+
+[[./img/treasure-isles.png]]
+
+#+LaTeX: \newpage
+
+#+BEGIN_QUOTE
+NOTE: This is an early draft ruleset. None of the values have been
+sufficiently tested as to ensure that it is fair or fun.
+#+END_QUOTE
+
+* Introduction
+This is an expansion to the rules for Treasure Isles. It adds some
+more rules to provide a richer gaming experience. All existing rules
+from the core game are still valid, except that the economic victory
+condition is replaced with the one below.
+
+* Rules
+
+The following rules supplement those in Treasure Isles.
+
+** Combat
+
+It is possible to attack a port. The combat works in the same way as
+ship combat with the port getting +1 to their attack roll. If the
+player loses the roll, they always lose 5 gold, or suffer an
+additional 1 point of damage if the ship is not holding 5 gold. If the
+player succeeds, the port loses one upgrade of the player's choosing,
+including logging camps. If the port does not have any upgrades then
+it is removed from the map.
+
+** Upgrading
+
+When docked at a port, a player may invest in the infrastructure of
+that port. For 10 gold, they may fund a logging camp. Each logging
+camp will produce 1 wood per turn. This wood is available to all
+traders at the same price of 4 gold per wood. No ports will buy
+wood. Home ports cannot have logging camps.
+
+The player may transport wood to their home port and offload it. When
+the stockpile in the home port reaches 20 wood, they may use it to
+upgrade one of three things.
+
+*** Shipyard
+
+The player can buy additional ships at their home port. A ship cannot
+move on the turn it was purchased. A ship can be sold for half its
+value.
+
+*** Tavern
+
+The ship gets a token after having docked at their home port after the
+tavern has been upgraded. This token is only valid for the next voyage
+until the ship docks in another port. At any point the player can
+exchange this token for either +1 on their next roll, or to re-roll
+the previous roll. It is not possible to add +1 after having already
+rolled.
+
+*** Treasury
+
+Building a treasury allows players to stash their gold at their home
+port, making it less of a target for rival pirates. This gold cannot
+be used for trades unless it is once again retrieved.
+
+*** Fortress
+
+Once all three upgrades have been built, then the player may collect a
+further 50 wood and 20 gold to build a fortress to defend the port.
+
+* Winning the game
+
+The conquest victory condition remains from the core game, but an
+economic victory is now when a player succesfully builds their
+fortress.
+
+* Ships
+
+Port of Nassau introduces several new ship classes which can be
+purchased at the Shipyard.
+
+** Merchant Brig
+
+A sturdy vessel designed for hauling large quantities of cargo,
+sacrificing speed for increased storage capacity.
+
+| Speed     | -3 |
+| Cargo     | 10 |
+| Hitpoints |  8 |
+| Attack    | +0 |
+| Cost      | 50 |
+
+** Cutter
+
+A nimble ship built for speed and maneuverability, perfect for swift
+attacks and fast travel.
+
+| Speed     | +2 |
+| Cargo     |  2 |
+| Hitpoints |  4 |
+| Attack    | +1 |
+| Cost      | 20 |
+
+#+BEGIN_EXPORT LaTeX
+{\footnotesize
+#+END_EXPORT
+This work is licensed under a
+[[http://creativecommons.org/licenses/by/4.0/][Creative Commons Attribution 4.0 International License]].
+#+BEGIN_EXPORT LaTeX
+}
+#+END_EXPORT
+

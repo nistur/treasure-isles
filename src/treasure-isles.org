@@ -158,14 +158,10 @@ roll, and can not move his ship at all this turn.
 
 * Winning the game
 
-#+BEGIN_QUOTE  
-NOTE: This is still missing a primary victory condition. I am
-attempting to disincentivise combat, so it should not be solely
-dominating the other player(s) but some more reliable economic goal.
-#+END_QUOTE
-
-You can also win if all other players have all their ships sunk and
-unable to purchase new ones.
+There wre two victory conditions. The first player to reach 30 gold
+from trade and piracy will succeed in an economic victory.
+Alternatively, if you are the last player with an unsunk ship, you
+have 
 
 * Ships
 
@@ -180,6 +176,7 @@ A basic ship with good speed and average cargo capacity
 | Cargo     |  5 |
 | Hitpoints |  5 |
 | Attack    | +0 |
+| Cost      | 20 |
 
 #+BEGIN_EXPORT LaTeX
 {\footnotesize

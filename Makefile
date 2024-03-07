@@ -22,6 +22,7 @@ ${OBJDIR}/%.tex: ${SRCDIR}/%.org dir
 dir:
 	mkdir -p ${OUTDIR}
 	mkdir -p ${OBJDIR}
+	rm -f img
 	ln -sfv ${SRCDIR}/img img
 
 clean:

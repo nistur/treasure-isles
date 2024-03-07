@@ -29,22 +29,12 @@ the game.
 
 ## Extensions
 
-There are plans to have extensions to the game. These will be written
-up and provided once the core rules have been playtested to be fun
-enough to continue with. For the interest of anyone reading this, an
-example of these would be:
-- Additional ship types to upgrade the player's ship
-  - Larger ships with lower speed but larger cargo storage.
-  - Faster ships with smaller storage.
-- Rules for running a fleet rather than just a single ship.
-- NPC ship behaviours.
-- Ship capture mechanics.
-- Additional events.
-- Port economy changing to counteract static trade routes.
-
-These extensions will be formatted similar to the core rules, in a
-leaflet which will combine several new rules together into a package
-which feels cohesive.
+There are two extensions planned. The first of these is Port of
+Nassau. This expansion is focused on expansion of the player's
+port. This is already in progress, but not ready for release yet. The
+second expansion has the working title High Seas, and will provide
+more dynamic trade routes, as well as more interesting actions while
+not at port.
 
 ## Feedback
 
