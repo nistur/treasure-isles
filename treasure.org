@@ -1,0 +1,191 @@
+#+TITLE: Treasure Isles v0.1
+#+OPTIONS: toc:nil H:10 tex:t date:nil author:nil title:nil
+#+LaTeX_HEADER: \usepackage{treasure}
+#+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-gray}}
+#+LaTeX_HEADER: \pagestyle{empty}
+#+LaTeX_CLASS: leaflet
+#+LaTeX_CLASS_OPTIONS: [a4paper,10pt,notumble]
+
+
+[[./front.png]]
+
+#+LaTeX: \newpage
+
+#+BEGIN_QUOTE
+NOTE: This is an early draft ruleset. None of the values have been
+sufficiently tested as to ensure that it is fair or fun.
+#+END_QUOTE
+
+* Introduction
+
+Treasure Isles is a tabletop game that can be played by children and
+adults. This document includes basic rules, such that can be
+understood by young pirates, but extension rules are also provided
+that can evolve this game into a more engaging experience.
+
+* Requirements
+
+To play the game, you need islands, something to keep track of
+resources, a ship for each player, markers for ports, a single
+standard (D6) die, and a ruler or measuring tape.
+
+Apart from the die, all of the above can be created by cutting up
+pices of paper and drawing them yourself. If you're doing this, it
+might be a good idea to glue to paper to card before cutting it out.
+
+Other alternatives are using toys you have around, or getting pirate
+themed miniatures.
+
+Ships should be roughly 2"/5cm in length,
+
+Islands can be any size and quantity, based on your available playing
+area. Just make sure to leave enough space to sail in between!
+
+For port markers, you need one for each player, and then six
+additional ones, numbered 1-6. These should be about the size of a
+coin.
+
+There are three resources in the game: rum, sugar, and spices. One
+option is to use small blocks of LEGO or similar (brown, white and red
+respectively). Additionally something to keep track of money. This can
+all be done by writing numbers on a ledger rather than using physical
+objects.
+
+* Setup
+
+First position the islands around the play area. These can be anywhere
+and in any configuration as long as there is enough space to travel
+betwen them. Then each player gets to choose a different island to
+place their home port on. Place their port marker down, and their ship
+next to it. Then roll on the following table.
+
+| 1 | Sells rum    | Buys sugar  |
+| 2 | Sells rum    | Buys spices |
+| 3 | Sells sugar  | Buys rum    |
+| 4 | Sells sugar  | Buys spices |
+| 5 | Sells spices | Buys rum    |
+| 6 | Sells spices | Buys sugar  |
+
+This will be the economy for the home port for the remainder of the
+game.
+
+Each player starts off with 5 gold.
+
+* Rules
+
+Play starts with the youngest, or the best pirate impression. Choose a
+direction and a distance to move in. The ship can move up to 6". When
+a distance is chosen, then roll to see whether the ship can travel
+that fast. If moving 6", then you need to roll 6+, when moving 5",
+then you need to roll 5+ etc. If the roll was successful, move the
+ship to the new location. If the roll failed, then first move the ship
+the distance rolled and roll for an event (see Events section below).
+
+If the player makes contact with an island, and there are not yet 6
+additional ports in play, then they can search for a new port or for
+buried treasure (see Searching section below). If they come in contact with a
+known port, then the player can initiate a trade (see Trade section
+below). If the ship comes in contact at any point with an opposing
+player's ship then the ship must stop movement and resolve
+combat (see Combat section below). Only if the combat is successful
+can the ship continue any remaining travel they have remaining that
+turn.
+
+** Searching
+
+When a ship is in contact with an island, it can choose to search the
+island.
+
+If fewer than 6 ports exist in the game, then the player can search
+for a new port. On a roll of 4+, place a numbered port marker on the
+coast, next to where the ship made contact. Roll on the table in Setup
+to establish the economy of this port.
+
+At any point, a ship may search for buried treasure. On a roll of 6+,
+then the player finds a cache of gold coins, whose value is D6/2,
+rounded up. So if they roll 3, they get 2 gold.
+
+** Trading
+
+When a player ship visits a port, it can choose to buy or sell various
+goods. These are: Rum, Sugar, Spices. The cost of these depends on the
+economy of the port:
+
+|            | Cost |
+|------------+------|
+| Buys item  |    5 |
+| Normal     |    4 |
+| Sells item |    3 |
+
+It is therefore beneficial to buy in ports that sell the items cheap,
+and sell in those that buy them a higher price.
+
+Additionally, when the player ship visits their home port, they can
+repair their ship at the cost of 2 gold per point of damage.
+
+** Combat
+
+Each player rolls, and the player with a lower value loses half their
+cargo, or the opponent's remaining hitpoints in gold, to be decided by
+negotiations.
+
+These negotiations could be as simple as agreeing what one player is
+willing to give up, and what the other player would accept, another
+dice roll, or a friendly sword duel (when playing with children, use
+balloon swords!) If the receiving ship cannot hold all of the cargo,
+then the remaining is lost.
+
+The loser of the initial combat roll-off also loses 1 point of damage
+on their ship. If their ship has lost all remaining hitpoints then she
+ship is sunk.
+
+** Events
+
+In the basic rules, there is only one event. No need to roll or choose
+which event occurs.
+
+*** Storm
+Move the amount rolled in the movement phase, on a 4+, otherwise do
+not move at all.
+eg
+#+BEGIN_QUOTE
+Alice decides to try to move 6" but rolls a 4 and gets stuck in a
+storm. To navigate the storm, she then rolls a 5, allowing her to move
+her original roll of 4".  Bill similarly tries to move 6" and also
+rolls a 4, getting stuck in a storm. Unfortunately he fails his storm
+roll, and can not move his ship at all this turn.
+#+END_QUOTE
+
+* Winning the game
+
+#+BEGIN_QUOTE  
+NOTE: This is still missing a primary victory condition. I am
+attempting to disincentivise combat, so it should not be solely
+dominating the other player(s) but some more reliable economic goal.
+#+END_QUOTE
+
+You can also win if all other players have all their ships sunk and
+unable to purchase new ones.
+
+* Ships
+
+In the basic rules, there is only one ship type available. If any
+stats are marked as +0, these are unused in the basic rules.
+
+** Sloop
+
+A basic ship with good speed and average cargo capacity
+
+| Speed     | +0 |
+| Cargo     |  5 |
+| Hitpoints |  5 |
+| Attack    | +0 |
+
+#+BEGIN_EXPORT LaTeX
+{\footnotesize
+#+END_EXPORT
+This work is licensed under a
+[[http://creativecommons.org/licenses/by/4.0/][Creative Commons Attribution 4.0 International License]].
+#+BEGIN_EXPORT LaTeX
+}
+#+END_EXPORT
