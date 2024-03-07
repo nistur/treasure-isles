@@ -7,7 +7,7 @@
 #+LaTeX_CLASS_OPTIONS: [a4paper,10pt,notumble]
 
 
-[[./front.png]]
+[[./img/treasure-isles.png]]
 
 #+LaTeX: \newpage
 

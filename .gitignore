@@ -1,2 +1,6 @@
 *.tex
 *.pdf
+*.log
+
+obj/
+out/
