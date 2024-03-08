@@ -36,6 +36,16 @@ second expansion has the working title High Seas, and will provide
 more dynamic trade routes, as well as more interesting actions while
 not at port.
 
+## Read the rules
+
+The recommended way to read the rules is to download and print [the
+latest
+release](https://github.com/nistur/treasure-isles/releases/latest/).
+
+You can however read the latest version of [the core rules
+here](../blob/src/treasure-isles.org). Also available is the [work in
+progress extension, Port of Nassau](../blob/src/port-of-nassau.org).
+
 ## Feedback
 
 Any feedback at all, whether it is criticism about some of the rules,

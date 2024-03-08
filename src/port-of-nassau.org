@@ -17,10 +17,22 @@ sufficiently tested as to ensure that it is fair or fun.
 #+END_QUOTE
 
 * Introduction
+
 This is an expansion to the rules for Treasure Isles. It adds some
 more rules to provide a richer gaming experience. All existing rules
 from the core game are still valid, except that the economic victory
 condition is replaced with the one below.
+
+* Requirements
+
+Additional to the requirements of the core game, you will need a way
+to note that a port has been upgraded, and something to represent
+another resource type, wood. There should be enough of these
+available, as wood stocks are tracked and build up over time.
+
+Also recommended would be to have a variety of different ship
+pieces. If using paper, these can be drawn as needed, but will need
+some way to differentiate their different classes.
 
 * Rules
 
@@ -108,11 +120,17 @@ attacks and fast travel.
 | Cost      | 20 |
 
 #+BEGIN_EXPORT LaTeX
-{\footnotesize
+\vspace*{\fill}
+{\tiny
+\par\noindent\rule{\textwidth}{0.4pt}
 #+END_EXPORT
+
+For the most recent version of this document, please visit
+
+https://github.com/nistur/treasure-isles
+
 This work is licensed under a
 [[http://creativecommons.org/licenses/by/4.0/][Creative Commons Attribution 4.0 International License]].
 #+BEGIN_EXPORT LaTeX
 }
 #+END_EXPORT
-

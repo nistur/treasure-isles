@@ -179,8 +179,15 @@ A basic ship with good speed and average cargo capacity
 | Cost      | 20 |
 
 #+BEGIN_EXPORT LaTeX
-{\footnotesize
+\vspace*{\fill}
+{\tiny
+\par\noindent\rule{\textwidth}{0.4pt}
 #+END_EXPORT
+
+For the most recent version of this document, please visit
+
+https://github.com/nistur/treasure-isles
+
 This work is licensed under a
 [[http://creativecommons.org/licenses/by/4.0/][Creative Commons Attribution 4.0 International License]].
 #+BEGIN_EXPORT LaTeX
