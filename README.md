@@ -43,8 +43,8 @@ latest
 release](https://github.com/nistur/treasure-isles/releases/latest/).
 
 You can however read the latest version of [the core rules
-here](../blob/src/treasure-isles.org). Also available is the [work in
-progress extension, Port of Nassau](../blob/src/port-of-nassau.org).
+here](../src/main/treasure-isles.org). Also available is the [work in
+progress extension, Port of Nassau](../main/src/port-of-nassau.org).
 
 ## Feedback
 
