@@ -27,14 +27,30 @@ toys if desired, just that paper is the lowest barrier to entry, plus
 allows your little ones to be able to be involved in the creation of
 the game.
 
-## Extensions
+## Expansions
 
-There are two extensions planned. The first of these is Port of
-Nassau. This expansion is focused on expansion of the player's
-port. This is already in progress, but not ready for release yet. The
-second expansion has the working title High Seas, and will provide
-more dynamic trade routes, as well as more interesting actions while
-not at port.
+There are two expansions to the core rules of Treasure Isles. These
+can be used independently of each other, or combined. It it obviously
+possible to cherry pick specific rules from these expansions to fit
+your game. They are designed not so that the core game should feel
+lacking, but rather to add more depth to the game.
+
+NOTE: They are provided so that the core game can be balanced with
+them in mind. They are not complete yet, to an even greater extent
+than the core rules.
+
+### Port of Nassau
+
+Every port starting to feel the same? This expansion gives you the
+ability to upgrade ports and improves the trading in the game. It adds
+some more ships, and a few more things to do with them.
+
+### High Seas
+
+More interested in sailing the high seas and raising the jolly roger?
+This expansion provides more rules for making the seafaring more
+interesting, capture mechanics, non player ships, and dynamic trade
+routes.
 
 ## Read the rules
 
@@ -42,9 +58,11 @@ The recommended way to read the rules is to download and print [the
 latest
 release](https://github.com/nistur/treasure-isles/releases/latest/).
 
-You can however read the latest version of [the core rules
-here](../main/src/treasure-isles.org). Also available is the [work in
-progress extension, Port of Nassau](../main/src/port-of-nassau.org).
+You can read the rules online here:
+
+- [Core Rules](../main/src/treasure-isles.org)
+- [Port of Nassau](../main/src/port-of-nassau.org)
+- [High Seas](../main/src/high-seas.org)
 
 ## Feedback
 

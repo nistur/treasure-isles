@@ -1,0 +1,138 @@
+#+TITLE: Treasure Isles - High Seas v0.1
+#+OPTIONS: toc:nil H:10 tex:t date:nil author:nil title:nil
+#+LaTeX_HEADER: \usepackage{treasure}
+#+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-gray}}
+#+LaTeX_HEADER: \pagestyle{empty}
+#+LaTeX_CLASS: leaflet
+#+LaTeX_CLASS_OPTIONS: [a4paper,10pt,notumble]
+
+
+[[./img/treasure-isles.png]]
+
+#+LaTeX: \newpage
+
+#+BEGIN_QUOTE
+NOTE: This is an early draft ruleset. None of the values have been
+sufficiently tested as to ensure that it is fair or fun.
+#+END_QUOTE
+
+* Introduction
+
+This is an expansion to the rules for Treasure Isles. It adds some
+more rules to provide a richer gaming experience. All existing rules
+from the core game are still valid.
+
+* Setup
+
+After setting up the game as per the core rules, position one non
+player ship for each player in the game. These should be positioned at
+the edge of the play area and are classed as Sloops for the purposes
+of any rules. 
+
+* Requirements
+
+* Rules
+
+** Movement
+
+If a player has multiple ships, they can either move them separately,
+using two separate movement phases in their turn, or treat them as a
+single unit. The player must announce when multiple ships join, or
+leave a convoy. When they are grouped together like this, then for the
+purposes of the rules they act like a single ship with the combined
+stats of all the ships in the convoy. Any damage applied to the group
+must still be distributed between the ships however, although it can
+be decided by the players involved in the combat how this is to be
+resolved. 
+
+** Non Player Ships
+
+After every player has had their turn, choose one player to move all
+non-player ships on the table. A good way of deciding this would be to
+start with the person clockwise of the person who started the game,
+and then each subsequent round, going around the table. These ships
+will move towards any port, including player home ports. They will not
+engage any ships or ports in combat, but players may engage them.
+
+If fewer than 6 non player ships are currently active, then the player
+in control of the non player ships may choose to roll, and on a 4+,
+another ship can be placed either at the edge of the play area, or at
+any non player port. The class of this ship is to be chosen from the
+pool of available ships by the player in control at that time.
+
+** Trading
+
+At the end of each round, after every player has gone, count through
+the ports positioned in order, ignoring home ports. Roll a D6, if that
+port has already been positioned then re-roll for the economy of that
+port from the table in the core rules under 'Setup'.
+
+** Combat
+
+If a player has succeeded in combat, the player may choose, rather
+than looting the ship as described in the core game rules, to attempt
+to commandeer the ship. To do this, they have to roll the difference
+of damage points between the ships.
+eg
+#+BEGIN_QUOTE
+Alice has successfully beaten Bill in combat. Her ship has a full 5
+damage remaining, but Bill's ship is down to 1 damage. Alice rolls a
+D6 and gets a 4, just narrowly managing to commandeer the ship.
+#+END_QUOTE
+
+A successful capture will lead to the player obtaining control of the
+ship, at its current state of disrepair, and all of the gold and cargo
+aboard.
+
+Non player ships will always provide gold when being looted. When
+being captured, they contain a full cargo hold. To calculate which
+item they are transporting, roll against the port economy table in the
+'Setup' section of the core rules, and picking the item in the 'Sells'
+column.
+
+* Winning the game
+
+* Ships
+
+High Seas introduces several new ship classes. If you are playing with
+Port of Nassau rules, then these can be purchased at a
+shipyard. Alternatively they can also be captured as non-player ships.
+
+** Galleon
+
+A formidable ship bristling with cannons on multiple decks, designed
+for naval battles and capable of delivering devastating broadsides.
+
+| Speed     |  -4 |
+| Cargo     |   5 |
+| Hitpoints |  12 |
+| Attack    |  +2 |
+| Cost      | 100 |
+
+** Schooner
+
+A sleek and inconspicuous vessel designed to slip past patrols
+unnoticed with hidden compartments for transporting illicit goods.
+
+| Speed     | +2 |
+| Cargo     |  4 |
+| Hitpoints |  2 |
+| Attack    | -1 |
+| Cost      | 20 |
+
+
+#+BEGIN_EXPORT LaTeX
+\vspace*{\fill}
+{\tiny
+\par\noindent\rule{\textwidth}{0.4pt}
+#+END_EXPORT
+
+For the most recent version of this document, please visit
+
+https://github.com/nistur/treasure-isles
+
+This work is licensed under a
+[[http://creativecommons.org/licenses/by/4.0/][Creative Commons Attribution 4.0 International License]].
+#+BEGIN_EXPORT LaTeX
+}
+#+END_EXPORT
